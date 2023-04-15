@@ -29,7 +29,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     m_Colors:
-    - Color_: {r: 13.886792, g: 5.7789493, b: 1.3624773, a: 0}
+    - Color_: {r: 27.77358, g: 11.632914, b: 2.762817, a: 0}
     - NoiseSpeed_: {r: 0, g: 0.5, b: 0, a: 0}
     - TwirlCenter_: {r: 0.5, g: -0.5, b: 0, a: 0}
     - TwirlSpeed_: {r: 0, g: 0.5, b: 0, a: 0}
