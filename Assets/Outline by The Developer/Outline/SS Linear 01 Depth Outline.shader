@@ -16,7 +16,7 @@ Shader "The Developer/SS Linear 01 Depth Outline"
     {
     	_OutlineColor("Outline Color", Color) = (1,1,1,1)
     	_OutlineThreshold("Outline Threshold", Float) = 3
-    	_OutlineWidth("Outline Width", Float) = 2
+    	_OutlineWidth("Outline Width", Float) = 10
         _MainTex ("Texture", 2D) = "white" {}
     }
     SubShader
