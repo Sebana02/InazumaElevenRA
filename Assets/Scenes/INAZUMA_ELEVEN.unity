@@ -520,7 +520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &640270556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,7 +535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 640270558}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 4foil
+  mTargetName: 7foil
   mDatasetName: 
   mCastedBehaviour: {fileID: 640270558}
   mMeshFilter: {fileID: 0}
@@ -599,14 +599,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 4foil
+  mTrackableName: 7foil
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1.3858268
   mImageTargetType: 3
   mWidth: 0.14431818
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: bfcc09f65ed0ff54f87886fc2f9104f5, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: d7ad5ab85c252c148aed882ae2cf74a9, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -1680,19 +1680,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3225423800069346755, guid: 669a7bcd69ef61e4cba30442fad5d450, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.03182915
+      value: -0.03182916
       objectReference: {fileID: 0}
     - target: {fileID: 3225423800069346755, guid: 669a7bcd69ef61e4cba30442fad5d450, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.041100778
+      value: -0.04110079
       objectReference: {fileID: 0}
     - target: {fileID: 3664774249584229733, guid: 669a7bcd69ef61e4cba30442fad5d450, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.023124754
+      value: -0.023124758
       objectReference: {fileID: 0}
     - target: {fileID: 3664774249584229733, guid: 669a7bcd69ef61e4cba30442fad5d450, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.05238082
+      value: -0.052380826
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 669a7bcd69ef61e4cba30442fad5d450, type: 3}
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1293995053}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 1foil
+  mTargetName: 3foil
   mDatasetName: 
   mCastedBehaviour: {fileID: 1293995053}
   mMeshFilter: {fileID: 0}
@@ -1798,14 +1798,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 1foil
+  mTrackableName: 3foil
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1.3858268
   mImageTargetType: 3
   mWidth: 0.14431818
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 6743901361dc0a44792d663661e95bbf, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 1e7c2c41ac4c2d846a4921a92fec7c0f, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -2463,11 +2463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996633741230441443, guid: 8ddde457a0e1d0046b64863cff714e51, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.019366022
+      value: 0.01936602
       objectReference: {fileID: 0}
     - target: {fileID: 3996633741230441443, guid: 8ddde457a0e1d0046b64863cff714e51, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.08386746
+      value: -0.08386745
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ddde457a0e1d0046b64863cff714e51, type: 3}
@@ -2925,7 +2925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1993309784}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 1foil
+  mTargetName: 2foil
   mDatasetName: 
   mCastedBehaviour: {fileID: 1993309784}
   mMeshFilter: {fileID: 0}
@@ -2989,14 +2989,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 1foil
+  mTrackableName: 2foil
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1.3858268
   mImageTargetType: 3
   mWidth: 0.14431818
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 6743901361dc0a44792d663661e95bbf, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 79c9f41f67b929447ab0d251bc748d72, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -3268,6 +3268,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: SteveEntrada
       objectReference: {fileID: 0}
+    - target: {fileID: 1601802719595530875, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.07251092
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601802719595530875, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.06545587
+      objectReference: {fileID: 0}
+    - target: {fileID: 3225423800069346755, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.031829145
+      objectReference: {fileID: 0}
+    - target: {fileID: 3225423800069346755, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.041100774
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664774249584229733, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.023124753
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664774249584229733, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.052380815
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996633741230441443, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01936602
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996633741230441443, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.08386745
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 540708204c8c6764bacc38cf0f8fbcc5, type: 3}
 --- !u!4 &2120171126 stripped
@@ -3308,7 +3340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2140551625}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 4foil
+  mTargetName: 5foil
   mDatasetName: 
   mCastedBehaviour: {fileID: 2140551625}
   mMeshFilter: {fileID: 0}
@@ -3372,14 +3404,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 4foil
+  mTrackableName: 5foil
   mInitializedInEditor: 1
   mDataSetPath: 
   mAspectRatio: 1.3858268
   mImageTargetType: 3
   mWidth: 0.14431818
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: bfcc09f65ed0ff54f87886fc2f9104f5, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 0d8ca9d5428531f4090f012ff46a50e5, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
