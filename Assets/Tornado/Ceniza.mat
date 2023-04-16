@@ -22,14 +22,14 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - Dissolve_: 0.836
+    - Dissolve_: 0.864
     - NoisePower_: 1.09
     - Noise_: 21.84
     - TwirlAmount_: -0.24
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     m_Colors:
-    - Color_: {r: 0.9056604, g: 0.023667606, b: 0, a: 0}
+    - Color_: {r: 1.8117647, g: 0.047058824, b: 0, a: 0}
     - NoiseSpeed_: {r: 0, g: 0.5, b: 0, a: 0}
     - TwirlCenter_: {r: 0.5, g: 0.5, b: 0, a: 0}
     - TwirlSpeed_: {r: 0, g: 0.5, b: 0, a: 0}

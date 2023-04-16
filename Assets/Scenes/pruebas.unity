@@ -327,7 +327,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 41.650604
+  orthographic size: 53.457264
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -20868,6 +20868,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 228490719, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 228490719, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
       propertyPath: ShapeModule.donutRadius
       value: 6.43
       objectReference: {fileID: 0}
@@ -20964,6 +20968,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 6.54
       objectReference: {fileID: 0}
@@ -20972,8 +20980,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
+      propertyPath: RotationModule.x.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
+      propertyPath: RotationModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
+      propertyPath: RotationModule.curve.minScalar
+      value: 0.34906584
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
+      propertyPath: RotationModule.curve.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8480633558161680466, guid: 5d0a1a42c04f43540a2b1cf17d3ddf4a, type: 3}
       propertyPath: InitialModule.startSize.minScalar
